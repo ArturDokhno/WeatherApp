@@ -93,6 +93,9 @@
                                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Refresh"/>
+                                                <connections>
+                                                    <action selector="refreshButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ett-Rg-9EO"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -108,6 +111,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e5n-6L-EjF" secondAttribute="bottom" id="jba-u5-Mic"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appearenttemperatureLabel" destination="j3o-6r-vFG" id="RmR-YF-fyw"/>
+                        <outlet property="humidityLabel" destination="2Vx-Id-YzQ" id="rJo-AM-OII"/>
+                        <outlet property="imageView" destination="9BP-Kw-Opi" id="954-gT-1EG"/>
+                        <outlet property="locationLabel" destination="5zG-VR-6Ag" id="20D-Y7-iga"/>
+                        <outlet property="pressureLabel" destination="5F3-uk-uxB" id="1yH-Sx-jCz"/>
+                        <outlet property="refreshButton" destination="gqE-v8-W3N" id="94A-vf-2oy"/>
+                        <outlet property="temperatureLabel" destination="9qz-DV-67N" id="awn-Td-fp0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var locationLabel: UILabel!
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var pressureLabel: UILabel!
+    @IBOutlet var humidityLabel: UILabel!
+    @IBOutlet var temperatureLabel: UILabel!
+    @IBOutlet var appearenttemperatureLabel: UILabel!
+    @IBOutlet var refreshButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func refreshButtonTapped(_ sender: Any) {
+        
+    }
+    
 }
 
